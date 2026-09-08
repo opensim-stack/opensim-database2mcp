@@ -34,7 +34,7 @@ RUN chmod +x /usr/local/bin/opensim-database2mcp-entrypoint.sh
 ENV DATABASE_MCP_TRANSPORT=sse \
     DATABASE_MCP_HOST=0.0.0.0 \
     DATABASE_MCP_PORT=8080 \
-    DATABASE_MCP_SSE_ROOT_PATH=/mcp \
+    DATABASE_MCP_SSE_ROOT_PATH=/mcp/sse \
     JDBC_URL=jdbc:mariadb://mariadb:3306/opensim \
     JDBC_USER=opensim \
     JDBC_PASSWORD=opensim

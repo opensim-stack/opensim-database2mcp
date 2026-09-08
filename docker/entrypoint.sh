@@ -17,7 +17,7 @@ set -- \
   -Djdbc.password="${JDBC_PASSWORD:-opensim}" \
   -Dquarkus.http.host="${DATABASE_MCP_HOST:-0.0.0.0}" \
   -Dquarkus.http.port="${DATABASE_MCP_PORT:-8080}" \
-  -Dquarkus.mcp.server.sse.root-path="${DATABASE_MCP_SSE_ROOT_PATH:-/mcp}"
+  -Dquarkus.mcp.server.sse.root-path="${DATABASE_MCP_SSE_ROOT_PATH:-/mcp/sse}"
 
 if [ -n "${JDBC_API_KEY:-}" ]; then
   set -- "$@" -Djdbc.api_key="${JDBC_API_KEY}"

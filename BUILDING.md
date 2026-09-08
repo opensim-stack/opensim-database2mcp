@@ -28,7 +28,7 @@ docker run --rm \
   -e DATABASE_MCP_TRANSPORT=sse \
   -e DATABASE_MCP_HOST=0.0.0.0 \
   -e DATABASE_MCP_PORT=8080 \
-  -e DATABASE_MCP_SSE_ROOT_PATH=/mcp \
+  -e DATABASE_MCP_SSE_ROOT_PATH=/mcp/sse \
   -e JDBC_URL=jdbc:mariadb://host.docker.internal:3306/opensim \
   -e JDBC_USER=opensim \
   -e JDBC_PASSWORD=opensim \
