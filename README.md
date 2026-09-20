@@ -1,6 +1,7 @@
 # opensim-database2mcp
 
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-bithatch%2Fopensim--database2mcp-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/bithatch/opensim-database2mcp/general)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-bithatch%2Fopensim--database2mcp-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/r/bithatch/opensim-database2mcp)
+[![Docker Publish](https://github.com/opensim-stack/opensim-database2mcp/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/opensim-stack/opensim-database2mcp/actions/workflows/docker-publish.yml)
 
 Bridges JDBC-compatible databases (including MariaDB) and the MCP protocol through the OpenLink JDBC MCP server.
 
@@ -26,3 +27,7 @@ Bridges JDBC-compatible databases (including MariaDB) and the MCP protocol throu
 - `DATABASE_MCP_TRAFFIC_LOGGING` (`true`/`false`)
 - `DATABASE_MCP_TRAFFIC_LOGGING_TEXT_LIMIT` (default `100`)
 - `DATABASE_MCP_BUILD_REF` (git ref, tag, or commit for `mcp-jdbc-server`, default `main`)
+
+## Building and publishing
+
+See `BUILDING.md` for local build/run steps, manual multiarch publish commands, and automated GitHub Actions publish details.
